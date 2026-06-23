@@ -7,6 +7,6 @@ return rankResult
 
 let showRank = getRank(10, 5)
 
-if(showRank >= 5){
-    console.log(`Voce esta no ferro com um saldo de ${showRank} vitórias`)
+switch (true) {
+    case <10
 }
