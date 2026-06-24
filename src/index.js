@@ -1,35 +1,24 @@
-
-
-function getRank(wins, defeat){
-let rankResult = wins - defeat
-return rankResult
+function getRank(wins, defeats) {
+    return wins - defeats
 }
 
-let showRank = getRank(10, 5)
-let nivel = ""
+let rankedBalance = getRank(95, 5)
+let level = ""
 
-if(showRank <= 10){
+if (rankedBalance <= 10) {
     level = "Ferro"
-} 
-else if(showRank <= 20 ){
+} else if (rankedBalance <= 20) {
     level = "Bronze"
-}
-else if(showRank <= 50){
-level = "Prata"
-}
-else if(showRank <= 80){
-level = "Ouro"
-}
-else if(showRank <= 90){
+} else if (rankedBalance <= 50) {
+    level = "Prata"
+} else if (rankedBalance <= 80) {
+    level = "Ouro"
+} else if (rankedBalance <= 90) {
     level = "Diamante"
-}
-else if(showRank <= 100){
+} else if (rankedBalance <= 100) {
     level = "Lendário"
-}
-else{
+} else {
     level = "Imortal"
 }
 
-
-
-console.log(`O Herói tem de saldo de ${showRank} vitórias e está no nível de ${level}`)
+console.log(`O Herói tem de saldo de ${rankedBalance} vitórias e está no nível de ${level}`)
