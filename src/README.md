@@ -127,4 +127,4 @@ Durante o desenvolvimento deste projeto, pratiquei:
 Desenvolvido por **Eduardo Cassin**.
 
 - GitHub: https://github.com/EduardoCassin12
-- LinkedIn: www.linkedin.com/in/eduardo-guedes-cassin-junior
+- LinkedIn: www.linkedin.com/in/eduardocassin
